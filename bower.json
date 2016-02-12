@@ -1,0 +1,28 @@
+{
+  "name": "react-with-angular",
+  "homepage": "https://github.com/nchathu2014/react-with-angular",
+  "description": "This is aexample",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "React",
+    "AngularJS",
+    "ngReat"
+  ],
+  "authors": [
+    "T.D.Nuwan Chathuranga"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^0.14.7",
+    "ngReact": "^0.2.0"
+  }
+}

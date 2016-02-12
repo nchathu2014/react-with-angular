@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>React with AngularJS</title>
+</head>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/react/react.min.js"></script>
+<script src="bower_components/react/react-dom.min.js"></script>
+<script src="bower_components/ngReact/ngReact.min.js"></script>
+<script src="components/hello_world.js"></script>
+
+<body ng-app="app">
+	<div ng-controller="testCtrl">
+		<react-component name="HelloWorld"></react-component>
+	</div>
+</body>
+
+<script>
+	var app = angular.module("app", ['react']).
+			controller('testCtrl',['$scope',function($scope){
+
+	}])
+		
+</script>
+</html>

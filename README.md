@@ -11,3 +11,5 @@ Approach to plug ReactJS webcomponent to AngularJS application
 
 # Test
 Run in any http server Ex:- http://localhost:7000/index.html
+
+Dev is on progress....:)

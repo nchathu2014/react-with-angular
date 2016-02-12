@@ -1,18 +1,13 @@
-# ReactJS Starter Kit
-webpack appraoch to create a react project - starter kit
+# ReactJS with AngularJS
+Approach to plug ReactJS webcomponent to AngularJS application
 
-# Prerequisite (latest versions)
-Node , webpack and webpack-dev-server
-
-if you are having trouble with these follow the links to chekouts
-
-- Node -> https://nodejs.org 
-- webpack -> npm install -g webpack 
-- webpack dev server -> npm install -g webpack-dev-server
+# Technical pointout
+- Here I use ES5 syntax format to create the React component and it is possible to do the same thing using ES6.
+- Also use the pre-compile Component file (JS) , We can do the same thing in project buildup using Grunt or Gulp
+- After Plug the component in to the Angular the component is self sustaining (if expose a external JS module to handle the API calls)
 
 # Run
-- npm install
-- npm start
+- bower install
 
 # Test
-http://localhost:7000
+Run in any http server Ex:- http://localhost:7000/index.html
